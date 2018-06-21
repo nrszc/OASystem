@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>OA办公系统</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="img/OA.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/login.css">
+<style type="text/css">
+input:-webkit-autofill {
+    -webkit-animation: autofill-fix 1s infinite;
+}
+
+@-webkit-keyframes autofill-fix {
+    from {
+        background-color: transparent
+    }
+    to {
+        background-color: transparent
+    }
+}
+input::-moz-placeholder{
+	color: white !important;
+}
+input::-moz-placeholder {  
+　　color: white !important; 
+}  
+input:-moz-placeholder {  
+　　color: white !important; 
+}  
+input::-ms-input-placeholder{
+	color: white !important;
+}
+input::-webkit-input-placeholder{
+	color: white !important;
+}
+</style>
+<script type="text/javascript" src="js/three.min.js"></script>
+</head>
+<body>
+<script type="text/javascript" src="js/login.js"></script>
+<div class="LoR">
+<h2 class=" text-center">用户登录</h2>
+<div class="form-liebiao">
+<form action="LoginServlet?method=login" method="post">
+	<input type="text" name="employeeID" placeholder="用户" required/>
+	<input type="password" name="password" placeholder="密码" required/>
+	<div align="center">
+    <div class="col-sm-offset-2 col-md-8">
+      <button type="submit" class="btn btn-primary btn-lg btn-block" >登录</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
+</body>
+</html>
